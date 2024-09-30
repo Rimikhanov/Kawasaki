@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+    <nav class="nav">
+      <div class="container">
+        <h1 class="logo"><a href="/index.html">R<span>G</span></a></h1>
+
+<!-- потом отрефакторить -->
+        <div class="menu-button-div">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+        
+    </div>
+        <ul class="nav-ul">
+          <li class="nav-item"><a class="nav-link" href="#section--1" class="current">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section--2">Overview</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section--3">Characteristics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section--4">About</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#section--5">Contact</a></li> -->
+        </ul>
+      </div>
+      <!-- <div  class="burger-list">
+        <ul style="color: wheat;">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+      </ul> 
+  </div> -->
+    </nav>
+
+    <div  class="burger-list" >
+        <ul >
+          <li class="burger-link" href="#section--1">Home</li>
+          <li class="burger-link" href="#section--2">Overview</li>
+          <li class="burger-link" href="#section--3">Characteristics</li>
+          <li class="burger-link" href="#section--4">About</li>
+      </ul> 
+  </div>
+    </header>
+  
+
+    <div class="hero" id="section--1">
+      <!-- некорректно на некоторых устройствах. позже найти выход -->
+      <video autoplay muted controls loop playsinline id="myVideo">
+        <source src="kawa4003.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+        
+        <h1>Unleash Your Ride,<span>Kawasaki Ninja 400.<span></h1>
+        <p>Explore the perfect blend of power and style.</p>
+      </div>
+    </div>
+    <figure>
+      
+    </figure>
+    <div class="container content">
+    <section class="overview" id="section--2">
+      <div class="text">
+        <h2>OVERVIEW</h2>
+        <p>The Ninja® 400 sportbike offers the largest displacement in category at 399cc with the sophistication of twin-cylinder power. Approachable power, superb ergonomics and class-leading performance offer a smooth, manageable ride that's ideal for new riders while also alluring experienced riders. A low seat height and aggressive styling with LED headlights make the Ninja 400 the ideal choice for riders looking to enter the sport-riding scene.  </p>
+      </div>
+      <div class="image">
+        <img src="bikke.jpg" alt="">
+      </div>
+       </section>
+       
+       <h2>Characteristics</h2>
+       <section class="characteristics" id="section--3">
+        <div class="charItem" id="engine">
+          <div class="contentItem"> 
+            <h2>Engine</h2>
+          </div>
+          <img src="kwengine.jpeg" alt="" class="charItem-image">
+        </div>
+
+        <div class="charItem" id="transmission">
+          <div class="contentItem"> 
+            <h2>Transmission</h2>
+          </div>
+          <img src="kwtransmission.jpeg" alt="" class="charItem-image">
+        </div>
+
+        <div class="charItem" id="frame">
+          <div class="contentItem"> 
+            <h2>Frame</h2>
+          </div>
+          <img src="kwframe.jpg" alt="" class="charItem-image">
+        </div>          
+
+        <div class="charItem" id="brake"> 
+          <div class="contentItem"> 
+            <h2>Brake</h2>
+          </div>
+          <img src="kwbrakes.jpeg" alt="" class="charItem-image"></div>
+       </section>
+
+
+<div class="content-modal">
+  <h3>Engine</h3>
+  <p class="text-modal">The Ninja 400 motorcycle is equipped with a powerful liquid-cooled four-stroke engine with a parallel cylinder layout. The compression ratio is 11.5:1, which delivers outstanding performance. The engine features a DOHC system with eight valves, and its bore and stroke measurements are 70.0 x 51.8 mm. With an engine displacement of 399 cm³, it provides ample power for dynamic riding. The fuel injection system utilizes two 32 mm diameter injectors, optimizing fuel consumption and enhancing efficiency. Additionally, the motorcycle is equipped with an electric starter and a digital ignition system, making it convenient and reliable to operate.</p>
+  <span class="close-icon">&times;</span>
+</div>
+<div class="content-modal">
+  <h3>Transmission</h3>
+  <p class="text-modal">The Ninja 400 offers a dynamic and reliable transmission with a 6-speed gearbox featuring a return shifter. The engine's maximum power reaches 33.4 kW (45 PS) at 10,000 RPM, while the maximum torque is 37 Nm at 8,000 RPM, ensuring excellent acceleration and responsiveness. The motorcycle demonstrates economical fuel consumption—only 3.9 liters per 100 km—and has a CO2 emission level of 91 g/km, making it a more environmentally friendly choice. The clutch system includes wet multi-disc components, providing smooth and reliable gear shifting. The primary reduction ratio is 2.219, which, combined with individual gear ratios (such as 1st gear at 2.929), allows for efficient use of engine power and ensures quality riding characteristics. A reliable sealed chain transmits power to the rear wheel.</p>
+  <span class="close-icon">&times;</span>
+</div>
+<div class="content-modal">
+  <h3>Frame</h3>
+  <p class="text-modal">The Ninja 400 is equipped with a sturdy Trellis frame made of high-strength steel, providing an optimal balance of rigidity and lightweight construction. The front suspension offers 120 mm of wheel travel, while the rear provides 130 mm, contributing to a comfortable and stable ride. The wheel diameter is 17 inches, with the front tire sized at 110/70R17 and the rear tire at 150/60R17, ensuring excellent road grip. The motorcycle's dimensions are 1,990 mm in length, 710 mm in width, and 1,120 mm in height, making it compact enough for urban use. With a wheelbase of 1,370 mm and a ground clearance of 140 mm, it enhances maneuverability and versatility. The fuel tank has a capacity of 14 liters, allowing for longer rides without frequent refueling. The seat height is 785 mm, and the curb weight of the motorcycle is 168 kg, making it a comfortable and manageable vehicle.</p>
+  <span class="close-icon">&times;</span>
+</div>
+<div class="content-modal">
+  <h3>Brake</h3>
+  <p class="text-modal">The Ninja 400 features efficient braking systems that ensure safety and control in all conditions. It is equipped with a single semi-floating disc brake at the front, measuring 310 mm in diameter, paired with a two-piston caliper, providing excellent braking force and quick response. The rear brake consists of a single 220 mm disc with a similar two-piston caliper, ensuring reliable stopping power. The front suspension is fitted with a 41 mm telescopic fork, enhancing stability during braking and maneuvering. The rear suspension features a Bottom-link Uni-Trak system, which combines gas shock absorbers with adjustable spring preload. This improves the comfort and handling of the motorcycle, allowing it to adapt to various road conditions. All these characteristics make the Ninja 400 an excellent choice for both urban riding and more aggressive riding styles.</p>
+  <span class="close-icon">&times;</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+       <section class="about" id="section--4">
+        <h2>About</h2>
+        <p>It all started in a shipyard in 1878, with Shozo Kawasaki
+          Today, KAWASAKI HEAVY INDUSTRIES is a large, global organization that operates in many markets and is always at the forefront of cutting-edge technologies.
+          
+          The production of complete motorcycles began more than 50 years ago. Our very first engine was designed based on the technical knowledge gained from the development and design of aircraft engines.
+          We started producing motorcycles with one fixed goal in mind: to develop new techniques. Over the years, we have introduced a large number of models that changed the entire motorcycle world. At the same time, we made legendary motorcycles, many of which are still etched in everyone's memory, mainly because of the (at the time) astonishing power and unprecedented speed. In 1996, we passed the 10 million engine mark, a testament to our diverse range and an encouragement to continue developing legendary engines.
+          
+          I also have a Kawasaki!
+          Space travel
+          Shipbuilding
+          Rolling stock
+          Power plants and companies
+          Environment & Recycling
+          Industrial Mechanical Engineering
+          Infrastructure
+          Leisure & Power Products
+          </p>
+       </section>
+      </div>
+
+
+      <footer>
+        <div class="footer">
+          <p>RG</p>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+</html>
+</body>
+</html>
